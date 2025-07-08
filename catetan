@@ -1,0 +1,17 @@
+-ARRAY
+int[] angka = {10, 20, 30, 40, 50}; // array berisi 5 elemen
+System.out.println(angka[2]); // Output: 30 (karena indeks dimulai dari 0)
+
+-KALO PAKE FOR LOOP
+for (int i = 0; i < 5; i++) {
+    System.out.println("Nilai i: " + i);
+}
+
+-KALO PAKE WHILE LOOP
+int i = 0;
+while (i < 5) {
+    System.out.println("Nilai i: " + i);
+    i++;
+}
+
+kalo pake for loop pas tau jelas ingin mengulang berapa kali kalo pake while jika belum tau ingin mengulang berapa kali
